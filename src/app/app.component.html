@@ -1,0 +1,8 @@
+<div class="homes container">
+  <a routerLink="home" id="home" [ngStyle]="{'font-weight':home}" (click)="fontChange('home');">Home</a>&nbsp; 
+  <a routerLink="active" id="active" [ngStyle]="{'font-weight':active}" (click)="fontChange('active');">Active</a>&nbsp;
+  <a routerLink="deleted" [ngStyle]="{'font-weight':deleted}" (click)="fontChange('deleted');">Deleted</a>&nbsp;
+  <a routerLink="manage" [ngStyle]="{'font-weight':manage}" (click)="fontChange('manage');">Manage</a>&nbsp;
+</div>
+<div class="hor"><hr /></div>
+<router-outlet></router-outlet>

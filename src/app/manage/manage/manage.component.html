@@ -1,0 +1,22 @@
+<div class="part">
+  <div *ngFor="let item of user">
+    <div *ngIf="item.isDeleted == false" class="card p-3 my-3 useractive">
+      <b>{{ item.firstName + " " + item.lastName }}</b>
+      <button type="button" (click)="details(item.id)" class="btn btn-primary butn">
+        Details
+      </button>
+    </div>
+    <div *ngIf="item.isDeleted == true" class="card p-3 my-3 userdelete">
+      <b>{{ item.firstName + " " + item.lastName }}</b>
+      <button type="button" (click)="details(item.id)" class="btn btn-primary butn">
+        Details
+      </button>
+    </div>
+  </div>
+</div>
+<div class="part2">
+  <div *ngIf="flags" class="card detail">
+    <app-user-details [senddata]="ids"></app-user-details>
+  </div>
+</div>
+  <router-outlet></router-outlet>

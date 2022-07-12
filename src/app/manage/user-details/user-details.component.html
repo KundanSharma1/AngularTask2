@@ -1,0 +1,12 @@
+<div *ngFor="let item of user">
+  <div *ngIf="item.id === senddata">
+    <h5>{{ item.firstName + " " + item.lastName }}</h5>
+
+    <div *ngIf="item.isDeleted == true" style="color: red;">Deleted</div>
+    <div *ngIf="item.isDeleted == false" class="linespace" style="color: green;">Active</div>
+    <div class="linespace">Login Id <span class="gap">{{ item.login }}</span></div>
+    <div class="linespace">First Name <span class="gap1">{{ item.firstName }}</span></div>
+    <div class="linespace">Last Name <span class="gap2">{{ item.lastName }}</span></div>
+    <div class="linespace1">Age <span class="gap3">{{ item.age }}</span></div>
+  </div>
+</div>

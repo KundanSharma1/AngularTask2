@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "firstName": "One",
+    "lastName": "User",
+    "age": 21,
+    "login": "User1",
+    "password": "abcd",
+    "isDeleted": true
+  },
+  {
+    "id": "2",
+    "firstName": "Two",
+    "lastName": "User",
+    "age": 23,
+    "login": "User2",
+    "password": "xyzw",
+    "isDeleted": false
+  },
+  {
+    "id": "3",
+    "firstName": "Three",
+    "lastName": "User",
+    "age": 19,
+    "login": "User3",
+    "password": "abcxyw",
+    "isDeleted": true
+  },
+  {
+    "id": "4",
+    "firstName": "Four",
+    "lastName": "User",
+    "age": 33,
+    "login": "User4",
+    "password": "rvdnjnvjrf",
+    "isDeleted": false
+  },
+  {
+    "id": "5",
+    "firstName": "Five",
+    "lastName": "User",
+    "age": 27,
+    "login": "User5",
+    "password": "bsnjf",
+    "isDeleted": true
+  },
+  {
+    "id": "6",
+    "firstName": "Six",
+    "lastName": "User",
+    "age": 36,
+    "login": "User6",
+    "password": "grfdvbbtf",
+    "isDeleted": false
+  },
+  {
+    "id": "7",
+    "firstName": "Seven",
+    "lastName": "User",
+    "age": 31,
+    "login": "User7",
+    "password": "kdtui",
+    "isDeleted": true
+  },
+  {
+    "id": "8",
+    "firstName": "Eight",
+    "lastName": "User",
+    "age": 27,
+    "login": "User8",
+    "password": "rurdx",
+    "isDeleted": false
+  },
+  {
+    "id": "9",
+    "firstName": "Nine",
+    "lastName": "User",
+    "age": 23,
+    "login": "User9",
+    "password": "yf5d",
+    "isDeleted": false
+  },
+  {
+    "id": "10",
+    "firstName": "Ten",
+    "lastName": "User",
+    "age": 52,
+    "login": "User10",
+    "password": "ftgh",
+    "isDeleted": true
+  }
+]

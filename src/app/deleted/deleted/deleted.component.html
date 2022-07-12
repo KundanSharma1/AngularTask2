@@ -1,0 +1,11 @@
+<div *ngFor="let item of user">
+  <div
+    class="card p-3 my-3 user"
+    *ngIf="item.isDeleted && !ids.includes(item.id)"
+  >
+    {{ item.firstName + " " + item.lastName }}
+      <button type="button" (click)="oneclick(item.id)" class="btn btn-success butn">
+        Activate
+      </button>
+  </div>
+</div>

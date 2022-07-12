@@ -1,0 +1,11 @@
+.butn{
+  width: 10%;
+  float: right;
+  margin-left: 90%;
+}
+
+.user{
+  margin-left: 6%;
+  margin-right: 6%;
+  border-color: rgb(0, 230, 0);
+}
